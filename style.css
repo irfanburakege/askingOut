@@ -7,7 +7,7 @@ body {
 }
 
 #noButton {
-    animation: moveAway 2s infinite;
+    animation: moveAway 2s 1;
     animation-play-state: paused;
     background-color: rgb(208, 28, 28);
     color: aliceblue;
