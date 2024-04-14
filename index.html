@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
-    <h1>Would you like to go out tomorrow?</h1>
-    <img width="500" alt="cuteCat" src="images/catStanding.JPG">
-    </div>
+    <div class="container">
+        <div id="header">
+            <h1 class="header_text">Would you like to go out tomorrow?</h1>
+        </div>
+        <div class="gif_container">
+            <img  alt="cuteCat" src="images/catStanding.JPG">
+        </div>
 
-    <div id="buttons">
-    <a href="https://youtu.be/KN3IemyqJJw?si=K8TIk0klpARk4HSN" target="_self">
-        <button class="btn" id="yes">Yes</button>
-    </a>
-        <button onclick="moveAway" id="no" class="btn">No</button>
+        <div class="buttons_container">
+            <a href="https://www.youtube.com/watch?v=KN3IemyqJJw" target="_self">
+                <button class="btn" id="yesButton">Yes</button>
+            </a>
+            <button onclick="moveAway" id="noButton" class="btn">No</button>
+        </div>
     </div>
-    
 </body>
 </html>
